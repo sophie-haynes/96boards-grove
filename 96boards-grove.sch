@@ -528,11 +528,11 @@ RST_BTN_N
 Text GLabel 2250 1200 2    60   Input ~ 0
 SPI0_CLK
 Text GLabel 2250 1300 2    60   Input ~ 0
-SPI0_DIN
+SPI0_MISO
 Text GLabel 2250 1400 2    60   Input ~ 0
-SPI0_CS
+SPI0_SS
 Text GLabel 2250 1500 2    60   Input ~ 0
-SPI0_DOUT
+SPI0_MOSI
 Text GLabel 2250 1600 2    60   Input ~ 0
 PCM_FS
 Text GLabel 2250 1700 2    60   Input ~ 0
