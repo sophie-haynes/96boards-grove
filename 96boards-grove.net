@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/KawaiiKeewee/GitProjects/96boards-grove/96boards-grove.sch)
-    (date "Monday, 07 September 2015 11:58:55")
+    (date "Monday, 07 September 2015 12:59:59")
     (tool "Eeschema (2015-08-27 BZR 6130)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -270,7 +270,7 @@
       (tstamp 55D69BEE))
     (comp (ref P10)
       (value CONN_02X03)
-      (footprint Pin_Headers:Pin_Header_Straight_2x03)
+      (footprint Pin_Headers:Pin_Header_Angled_2x03)
       (libsource (lib conn) (part CONN_02X03))
       (sheetpath (names /) (tstamps /))
       (tstamp 55D6B408)))
