@@ -1540,7 +1540,7 @@ F 3 "" H 9850 -450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10250 650  2    60   Input ~ 0
-VIOC
+VIOB
 Wire Wire Line
 	10250 650  10100 650 
 $Comp
@@ -1559,13 +1559,13 @@ Wire Wire Line
 Wire Wire Line
 	10250 850  10250 1000
 Text GLabel 10250 750  2    60   Input ~ 0
-SPI0_MOSI/C
+SPI0_MOSI/B
 Text GLabel 9500 650  0    60   Input ~ 0
-SPI0_MISO/C
+SPI0_MISO/B
 Text GLabel 9500 750  0    60   Input ~ 0
-SPI0_CLK/C
+SPI0_CLK/B
 Text GLabel 9500 850  0    60   Input ~ 0
-SPIO_SS/C
+SPIO_SS/B
 Wire Wire Line
 	10100 750  10250 750 
 Wire Wire Line
