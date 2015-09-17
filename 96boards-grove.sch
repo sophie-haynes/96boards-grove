@@ -153,17 +153,17 @@ F 6 "RC0603JR-07620RL" H 6150 1300 60  0001 C CNN "Mfr Part #"
 	1    0    0    -1  
 $EndComp
 Text GLabel 8450 5300 0    60   Output ~ 0
-UART0_RX/A
+UART0_RX_A
 Text GLabel 8450 5400 0    60   Input ~ 0
-UART0_TX/A
+UART0_TX_A
 Text GLabel 2200 7050 0    60   BiDi ~ 0
 I2C0_SDA
 Text GLabel 2200 7150 0    60   BiDi ~ 0
 I2C0_SCL
 Text GLabel 3600 7050 2    60   BiDi ~ 0
-I2C0_SDA/A
+I2C0_SDA_A
 Text GLabel 3600 7150 2    60   BiDi ~ 0
-I2C0_SCL/A
+I2C0_SCL_A
 Text GLabel 2200 7250 0    60   Input ~ 0
 +1V8
 $Comp
@@ -218,7 +218,7 @@ L CONN_01X04 P9
 U 1 1 55C53434
 P 8750 3550
 F 0 "P9" H 8750 3800 50  0000 C CNN
-F 1 "GPIO-A/B" V 8850 3550 50  0000 C CNN
+F 1 "GPIO-A_B" V 8850 3550 50  0000 C CNN
 F 2 "96boards-grove:Grove_SMD_Connector" H 8750 3550 60  0001 C CNN
 F 3 "" H 8750 3550 60  0000 C CNN
 F 4 "320110032" H 1400 -850 60  0001 C CNN "Seeed SKU"
@@ -268,13 +268,13 @@ VIOA
 Text GLabel 8450 4850 0    60   Input ~ 0
 VIOA
 Text GLabel 8450 4650 0    60   BiDi ~ 0
-GPIO-C/A
+GPIO-C_A
 Text GLabel 8450 4750 0    60   BiDi ~ 0
-GPIO-D/A
+GPIO-D_A
 Text GLabel 8450 3500 0    60   BiDi ~ 0
-GPIO-B/A
+GPIO-B_A
 Text GLabel 8450 3400 0    60   BiDi ~ 0
-GPIO-A/A
+GPIO-A_A
 $Comp
 L CP C7
 U 1 1 55C57889
@@ -625,9 +625,9 @@ F 6 "TXS0108EPWR" H 2900 6850 60  0001 C CNN "Mfr Part #"
 	1    0    0    -1  
 $EndComp
 Text GLabel 3600 6950 2    60   Input ~ 0
-UART0_RX/A
+UART0_RX_A
 Text GLabel 3600 6850 2    60   Output ~ 0
-UART0_TX/A
+UART0_TX_A
 Text GLabel 2200 6750 0    60   BiDi ~ 0
 GPIO-A
 Text GLabel 2200 6650 0    60   BiDi ~ 0
@@ -637,21 +637,21 @@ GPIO-C
 Text GLabel 2200 6350 0    60   BiDi ~ 0
 GPIO-D
 Text GLabel 3600 6750 2    60   BiDi ~ 0
-GPIO-A/A
+GPIO-A_A
 Text GLabel 3600 6650 2    60   BiDi ~ 0
-GPIO-B/A
+GPIO-B_A
 Text GLabel 3600 6550 2    60   BiDi ~ 0
-GPIO-C/A
+GPIO-C_A
 Text GLabel 3600 6350 2    60   BiDi ~ 0
-GPIO-D/A
+GPIO-D_A
 Text GLabel 3550 4100 2    60   Input ~ 0
-SPI0_CLK/B
+SPI0_CLK_B
 Text GLabel 3550 4000 2    60   Input ~ 0
-SPI0_MISO/B
+SPI0_MISO_B
 Text GLabel 3550 3900 2    60   Input ~ 0
-SPI0_SS/B
+SPI0_SS_B
 Text GLabel 3550 3800 2    60   Input ~ 0
-SPI0_MOSI/B
+SPI0_MOSI_B
 Text GLabel 2150 4100 0    60   Input ~ 0
 SPI0_CLK
 Text GLabel 2150 4000 0    60   Input ~ 0
@@ -665,9 +665,9 @@ GPIO-K
 Text GLabel 2200 5000 0    60   BiDi ~ 0
 GPIO-L
 Text GLabel 3600 5200 2    60   BiDi ~ 0
-GPIO-K/B
+GPIO-K_B
 Text GLabel 3600 5000 2    60   BiDi ~ 0
-GPIO-L/B
+GPIO-L_B
 $Comp
 L GND #PWR023
 U 1 1 55D4DB63
@@ -713,9 +713,9 @@ I2C1_SDA
 Text GLabel 2150 3700 0    60   BiDi ~ 0
 I2C1_SCL
 Text GLabel 3550 3500 2    60   BiDi ~ 0
-I2C1_SDA/B
+I2C1_SDA_B
 Text GLabel 3550 3700 2    60   BiDi ~ 0
-I2C1_SCL/B
+I2C1_SCL_B
 Text GLabel 2200 5900 0    60   Input ~ 0
 +1V8
 $Comp
@@ -805,9 +805,9 @@ F 6 "TXS0108EPWR" H 2900 5500 60  0001 C CNN "Mfr Part #"
 	1    0    0    -1  
 $EndComp
 Text GLabel 3550 4200 2    60   Input ~ 0
-UART1_RX/B
+UART1_RX_B
 Text GLabel 3550 4300 2    60   Output ~ 0
-UART1_TX/B
+UART1_TX_B
 Text GLabel 2200 5800 0    60   BiDi ~ 0
 GPIO-E
 Text GLabel 2200 5700 0    60   BiDi ~ 0
@@ -817,13 +817,13 @@ GPIO-G
 Text GLabel 2200 5500 0    60   BiDi ~ 0
 GPIO-H
 Text GLabel 3600 5800 2    60   BiDi ~ 0
-GPIO-E/B
+GPIO-E_B
 Text GLabel 3600 5700 2    60   BiDi ~ 0
-GPIO-F/B
+GPIO-F_B
 Text GLabel 3600 5600 2    60   BiDi ~ 0
-GPIO-G/B
+GPIO-G_B
 Text GLabel 3600 5500 2    60   BiDi ~ 0
-GPIO-H/B
+GPIO-H_B
 $Comp
 L LED D2
 U 1 1 55BEB82C
@@ -998,13 +998,13 @@ VIOB
 Text GLabel 10700 3600 0    60   Input ~ 0
 VIOB
 Text GLabel 10700 3400 0    60   BiDi ~ 0
-GPIO-G/B
+GPIO-G_B
 Text GLabel 10700 3500 0    60   BiDi ~ 0
-GPIO-H/B
+GPIO-H_B
 Text GLabel 9600 5400 0    60   BiDi ~ 0
-GPIO-F/B
+GPIO-F_B
 Text GLabel 9600 5300 0    60   BiDi ~ 0
-GPIO-E/B
+GPIO-E_B
 $Comp
 L CONN_01X04 P8
 U 1 1 55D67DDE
@@ -1060,13 +1060,13 @@ VIOB
 Text GLabel 7350 4850 0    60   Input ~ 0
 VIOA
 Text GLabel 7350 4650 0    60   BiDi ~ 0
-I2C0_SCL/A
+I2C0_SCL_A
 Text GLabel 7350 4750 0    60   BiDi ~ 0
-I2C0_SDA/A
+I2C0_SDA_A
 Text GLabel 9600 3400 0    60   BiDi ~ 0
-I2C1_SCL/B
+I2C1_SCL_B
 Text GLabel 9600 3500 0    60   BiDi ~ 0
-I2C1_SDA/B
+I2C1_SDA_B
 Text GLabel 6300 4300 2    60   Input ~ 0
 VIOB
 $Comp
@@ -1116,13 +1116,13 @@ F 3 "" H 10350 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10350 2600 2    60   Input ~ 0
-SPI0_MOSI/B
+SPI0_MOSI_B
 Text GLabel 9600 2500 0    60   Input ~ 0
-SPI0_MISO/B
+SPI0_MISO_B
 Text GLabel 9600 2600 0    60   Input ~ 0
-SPI0_CLK/B
+SPI0_CLK_B
 Text GLabel 9600 2700 0    60   Input ~ 0
-SPIO_SS/B
+SPIO_SS_B
 $Comp
 L CONN_01X04 P7
 U 1 1 55EEB1D4
@@ -1152,15 +1152,15 @@ F 6 "1125S-4P" H 9900 4200 60  0001 C CNN "Mfr Part #"
 	1    0    0    -1  
 $EndComp
 Text GLabel 7350 4000 0    60   Input ~ 0
-I2C0_SCL/A
+I2C0_SCL_A
 Text GLabel 7350 4100 0    60   Input ~ 0
-I2C0_SDA/A
+I2C0_SDA_A
 Text GLabel 7350 4200 0    60   Input ~ 0
 VIOA
 Text GLabel 9600 4050 0    60   Input ~ 0
-I2C1_SCL/B
+I2C1_SCL_B
 Text GLabel 9600 4150 0    60   Input ~ 0
-I2C1_SDA/B
+I2C1_SDA_B
 Text GLabel 9600 4250 0    60   Input ~ 0
 VIOB
 $Comp
@@ -1211,9 +1211,9 @@ F 3 "" H 8550 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8400 4050 0    60   Input ~ 0
-GPIO-B/A
+GPIO-B_A
 Text GLabel 8400 4150 0    60   Input ~ 0
-GPIO-C/A
+GPIO-C_A
 Text GLabel 8400 4250 0    60   Input ~ 0
 VIOA
 $Comp
@@ -1285,9 +1285,9 @@ $EndComp
 Text GLabel 9550 6150 0    60   Input ~ 0
 VIOB
 Text GLabel 9550 6050 0    60   Input ~ 0
-GPIO-G/B
+GPIO-G_B
 Text GLabel 9550 5950 0    60   Input ~ 0
-GPIO-F/B
+GPIO-F_B
 $Comp
 L GND #PWR046
 U 1 1 55F2BD65
@@ -1365,13 +1365,13 @@ F 7 "Green" H 5700 1500 60  0000 C CNN "Colour"
 	0    -1   -1   0   
 $EndComp
 Text GLabel 5700 1100 1    60   Input ~ 0
-GPIO-B/A
+GPIO-B_A
 Text GLabel 2150 5400 0    60   BiDi ~ 0
 GPIO-I
 Text GLabel 2150 5300 0    60   BiDi ~ 0
 GPIO-J
 Text GLabel 3600 5300 2    60   BiDi ~ 0
-GPIO-J/B
+GPIO-J_B
 Wire Wire Line
 	8450 5300 8550 5300
 Wire Wire Line
@@ -1824,15 +1824,15 @@ Wire Wire Line
 Wire Wire Line
 	3600 5300 3400 5300
 Text GLabel 3600 5400 2    60   BiDi ~ 0
-GPIO-I/B
+GPIO-I_B
 Wire Wire Line
 	3600 5400 3400 5400
 Text GLabel 10650 4850 0    60   Input ~ 0
 VIOB
 Text GLabel 10650 4750 0    60   Input ~ 0
-GPIO-J/B
+GPIO-J_B
 Text GLabel 10650 4650 0    60   Input ~ 0
-GPIO-I/B
+GPIO-I_B
 $Comp
 L GND #PWR049
 U 1 1 55F4C179
@@ -1867,9 +1867,9 @@ Wire Wire Line
 Text GLabel 10650 6100 0    60   Input ~ 0
 VIOB
 Text GLabel 10650 6000 0    60   Input ~ 0
-GPIO-L/B
+GPIO-L_B
 Text GLabel 10650 5900 0    60   Input ~ 0
-GPIO-K/B
+GPIO-K_B
 $Comp
 L GND #PWR050
 U 1 1 55F4C342
@@ -1929,15 +1929,15 @@ $EndComp
 Text GLabel 10700 4250 0    60   Input ~ 0
 VIOB
 Text GLabel 10700 4150 0    60   BiDi ~ 0
-GPIO-I/B
+GPIO-I_B
 Text GLabel 10700 4050 0    60   BiDi ~ 0
-GPIO-H/B
+GPIO-H_B
 Text GLabel 10650 5500 0    60   Input ~ 0
 VIOB
 Text GLabel 10650 5400 0    60   Input ~ 0
-GPIO-K/B
+GPIO-K_B
 Text GLabel 10650 5300 0    60   Input ~ 0
-GPIO-J/B
+GPIO-J_B
 $Comp
 L GND #PWR052
 U 1 1 55F56002
@@ -2025,9 +2025,9 @@ $EndComp
 Text GLabel 7350 3600 0    60   Input ~ 0
 VIOA
 Text GLabel 7350 3400 0    60   BiDi ~ 0
-I2C0_SCL/A
+I2C0_SCL_A
 Text GLabel 7350 3500 0    60   BiDi ~ 0
-I2C0_SDA/A
+I2C0_SDA_A
 Wire Wire Line
 	7350 3400 7450 3400
 Wire Wire Line
@@ -2049,9 +2049,9 @@ F 6 "1125S-4P" H 9900 4800 60  0001 C CNN "Mfr Part #"
 	1    0    0    -1  
 $EndComp
 Text GLabel 9600 4650 0    60   Input ~ 0
-I2C1_SCL/B
+I2C1_SCL_B
 Text GLabel 9600 4750 0    60   Input ~ 0
-I2C1_SDA/B
+I2C1_SDA_B
 Text GLabel 9600 4850 0    60   Input ~ 0
 VIOB
 $Comp
@@ -2076,21 +2076,21 @@ VIOB
 Text GLabel 9600 900  0    60   Input ~ 0
 VIOA
 Text GLabel 9600 1000 0    60   Input ~ 0
-UART0_TX/A
+UART0_TX_A
 Text GLabel 9600 1100 0    60   Input ~ 0
-I2C0_SCL/A
+I2C0_SCL_A
 Text GLabel 10300 1000 2    60   Input ~ 0
-UART0_RX/A
+UART0_RX_A
 Text GLabel 10300 1100 2    60   Input ~ 0
-I2C0_SDA/A
+I2C0_SDA_A
 Text GLabel 9600 1200 0    60   Input ~ 0
-GPIO-A/A
+GPIO-A_A
 Text GLabel 9600 1300 0    60   Input ~ 0
-GPIO-C/A
+GPIO-C_A
 Text GLabel 10300 1200 2    60   Input ~ 0
-GPIO-B/A
+GPIO-B_A
 Text GLabel 10300 1300 2    60   Input ~ 0
-GPIO-D/A
+GPIO-D_A
 Wire Wire Line
 	10300 1300 10200 1300
 Wire Wire Line
@@ -2127,13 +2127,13 @@ Wire Wire Line
 Wire Wire Line
 	10250 750  10350 750 
 Text GLabel 10300 1700 2    60   Input ~ 0
-UART1_RX/B
+UART1_RX_B
 Text GLabel 10300 1800 2    60   Input ~ 0
-I2C1_SDA/B
+I2C1_SDA_B
 Text GLabel 10300 1900 2    60   Input ~ 0
-GPIO-F/B
+GPIO-F_B
 Text GLabel 10300 2000 2    60   Input ~ 0
-GPIO-H/B
+GPIO-H_B
 Wire Wire Line
 	10300 2000 10200 2000
 Wire Wire Line
@@ -2160,13 +2160,13 @@ Wire Wire Line
 Wire Wire Line
 	10250 1450 10350 1450
 Text GLabel 9600 1700 0    60   Input ~ 0
-UART1_TX/B
+UART1_TX_B
 Text GLabel 9600 1800 0    60   Input ~ 0
-I2C1_SCL/B
+I2C1_SCL_B
 Text GLabel 9600 1900 0    60   Input ~ 0
-GPIO-E/B
+GPIO-E_B
 Text GLabel 9600 2000 0    60   Input ~ 0
-GPIO-G/B
+GPIO-G_B
 Wire Wire Line
 	9600 1700 9700 1700
 Wire Wire Line
@@ -2178,17 +2178,17 @@ Wire Wire Line
 Wire Wire Line
 	9600 1600 9700 1600
 Text GLabel 9600 2100 0    60   Input ~ 0
-GPIO-I/B
+GPIO-I_B
 Text GLabel 9600 2200 0    60   Input ~ 0
-GPIO-K/B
+GPIO-K_B
 Wire Wire Line
 	9600 2100 9700 2100
 Wire Wire Line
 	9600 2200 9700 2200
 Text GLabel 10300 2100 2    60   Input ~ 0
-GPIO-J/B
+GPIO-J_B
 Text GLabel 10300 2200 2    60   Input ~ 0
-GPIO-L/B
+GPIO-L_B
 Wire Wire Line
 	10300 2200 10200 2200
 Wire Wire Line
