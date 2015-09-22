@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/grant/hacking/hardware/96boards-grove/96boards-grove.sch)
-    (date "Thu 17 Sep 2015 11:31:35 BST")
+    (date "Tue 22 Sep 2015 09:53:13 PDT")
     (tool "Eeschema 0.201509020901+6148~28~ubuntu15.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -302,7 +302,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 55F16AB4))
     (comp (ref SW2)
-      (value Switch_SPDT_x2)
+      (value VIOB)
       (footprint 96boards-grove:DIP_Toggle_Switch)
       (fields
         (field (name "Seeed SKU") 311030004)
@@ -312,7 +312,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 55F17108))
     (comp (ref SW1)
-      (value Switch_SPDT_x2)
+      (value VIOA)
       (footprint 96boards-grove:DIP_Toggle_Switch)
       (fields
         (field (name "Seeed SKU") 311030004)
