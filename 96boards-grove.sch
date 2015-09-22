@@ -1097,7 +1097,7 @@ U 1 1 55D6B408
 P 9950 2600
 F 0 "P5" H 9950 2800 50  0000 C CNN
 F 1 "SPI" H 9950 2400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x03" H 9950 1400 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 9950 1400 60  0001 C CNN
 F 3 "" H 9950 1400 60  0000 C CNN
 	1    9950 2600
 	1    0    0    -1  
@@ -1981,7 +1981,7 @@ U 1 1 55F76B5F
 P 9950 1100
 F 0 "P3" H 9950 1400 50  0000 C CNN
 F 1 "IOA" H 9950 800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x05" H 9950 -100 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 9950 -100 60  0001 C CNN
 F 3 "" H 9950 -100 60  0000 C CNN
 	1    9950 1100
 	1    0    0    -1  
@@ -1992,7 +1992,7 @@ U 1 1 55F76BE0
 P 9950 1900
 F 0 "P4" H 9950 2300 50  0000 C CNN
 F 1 "IOB" H 9950 1500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x07" H 9950 700 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x07" H 9950 700 60  0001 C CNN
 F 3 "" H 9950 700 60  0000 C CNN
 	1    9950 1900
 	1    0    0    -1  
