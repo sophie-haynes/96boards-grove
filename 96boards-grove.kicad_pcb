@@ -3,7 +3,7 @@
   (general
     (links 215)
     (no_connects 1)
-    (area 99.949999 99.949999 185.049493 154.050001)
+    (area 91.564287 96.07 199.7 154.050001)
     (thickness 1.6)
     (drawings 35)
     (tracks 1084)
@@ -2000,7 +2000,7 @@
     (arrow2a (pts (xy 191.7 104) (xy 191.113579 105.126504)))
     (arrow2b (pts (xy 191.7 104) (xy 192.286421 105.126504)))
   )
-  (gr_text "96Boards Grove, Rev A, \nLinaro Ltd, (c) 2015" (at 163.9 115.4) (layer F.SilkS)
+  (gr_text "96Boards Grove, Rev A, \nLinaro Ltd, © 2015" (at 163.9 115.4) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text VIOA (at 134.95 135.2 138) (layer F.SilkS) (tstamp 55FB2556)
