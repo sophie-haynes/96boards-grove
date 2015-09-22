@@ -1122,7 +1122,7 @@ SPI0_MISO_B
 Text GLabel 9600 2600 0    60   Input ~ 0
 SPI0_CLK_B
 Text GLabel 9600 2700 0    60   Input ~ 0
-SPIO_SS_B
+SPI0_SS_B
 $Comp
 L CONN_01X04 P7
 U 1 1 55EEB1D4
