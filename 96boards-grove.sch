@@ -2264,11 +2264,11 @@ I2C0_SDA_A
 Text GLabel 5750 6750 1    60   Input ~ 0
 I2C0_SCL_A
 Text GLabel 5350 7450 3    60   Input ~ 0
-+1V8
+VIOA
 Text GLabel 5750 7450 3    60   Input ~ 0
-+1V8
+VIOA
 Text GLabel 5350 3750 3    60   Input ~ 0
-+1V8
+VIOB
 Text GLabel 5750 3750 3    60   Input ~ 0
-+1V8
+VIOB
 $EndSCHEMATC
