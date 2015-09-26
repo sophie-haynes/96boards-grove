@@ -1429,8 +1429,6 @@ Wire Wire Line
 	1350 6300 1350 6550
 Connection ~ 1350 6450
 Wire Wire Line
-	3400 6450 4850 6450
-Wire Wire Line
 	4650 6450 4650 6550
 Connection ~ 4650 6450
 Wire Wire Line
@@ -2193,4 +2191,84 @@ Wire Wire Line
 	10300 2200 10200 2200
 Wire Wire Line
 	10300 2100 10200 2100
+Text Notes 5700 2350 0    60   ~ 0
+POWER INDICATOR LEDS
+$Comp
+L R R4
+U 1 1 5603CE19
+P 5350 3450
+F 0 "R4" V 5430 3450 50  0000 C CNN
+F 1 "5K" V 5350 3450 50  0000 C CNN
+F 2 "96boards-grove:R_0603_Seeed" H 5280 3450 30  0001 C CNN
+F 3 "" H 5350 3450 30  0000 C CNN
+	1    5350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 5603CF06
+P 5750 3450
+F 0 "R6" V 5830 3450 50  0000 C CNN
+F 1 "5K" V 5750 3450 50  0000 C CNN
+F 2 "96boards-grove:R_0603_Seeed" V 5680 3450 30  0001 C CNN
+F 3 "" H 5750 3450 30  0000 C CNN
+	1    5750 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5350 3150 1    60   Input ~ 0
+I2C1_SDA_B
+Text GLabel 5750 3150 1    60   Input ~ 0
+I2C1_SCL_B
+Wire Wire Line
+	5350 3150 5350 3300
+Wire Wire Line
+	5750 3150 5750 3300
+$Comp
+L R R5
+U 1 1 5603E2E9
+P 5350 7100
+F 0 "R5" V 5430 7100 50  0000 C CNN
+F 1 "5K" V 5350 7100 50  0000 C CNN
+F 2 "96boards-grove:R_0603_Seeed" V 5280 7100 30  0001 C CNN
+F 3 "" H 5350 7100 30  0000 C CNN
+	1    5350 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5603E394
+P 5750 7100
+F 0 "R7" V 5830 7100 50  0000 C CNN
+F 1 "5K" V 5750 7100 50  0000 C CNN
+F 2 "96boards-grove:R_0603_Seeed" V 5680 7100 30  0001 C CNN
+F 3 "" H 5750 7100 30  0000 C CNN
+	1    5750 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 6750 5350 6950
+Wire Wire Line
+	5750 6950 5750 6750
+Wire Wire Line
+	3400 6450 4850 6450
+Wire Wire Line
+	5350 3600 5350 3750
+Wire Wire Line
+	5750 3750 5750 3600
+Wire Wire Line
+	5350 7250 5350 7450
+Wire Wire Line
+	5750 7250 5750 7450
+Text GLabel 5350 6750 1    60   Input ~ 0
+I2C0_SDA_A
+Text GLabel 5750 6750 1    60   Input ~ 0
+I2C0_SCL_A
+Text GLabel 5350 7450 3    60   Input ~ 0
+VIOA
+Text GLabel 5750 7450 3    60   Input ~ 0
+VIOA
+Text GLabel 5350 3750 3    60   Input ~ 0
+VIOB
+Text GLabel 5750 3750 3    60   Input ~ 0
+VIOB
 $EndSCHEMATC
